@@ -1,61 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Custom Bootstrap Theme</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-	<div class="jumbotron jumbotron-main">
-		<!-- NAVBAR -->
-		 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+    <head>
+        <meta charset="utf-8">
+            <meta content="IE=edge" http-equiv="X-UA-Compatible">
+                <title>
+                    Custom Bootstrap Theme
+                </title>
+                <link href="css/bootstrap.css" rel="stylesheet">
+                    <link href="css/styles.css" rel="stylesheet">
+                    </link>
+                </link>
+            </meta>
+        </meta>
+    </head>
+    <body>
+        <div class="jumbotron jumbotron-main">
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand" href="#">
+                    Strapped
+                </a>
+                <button aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarsExampleDefault" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">
+                                Home
+                                <span class="sr-only">
+                                    (current)
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a aria-disabled="true" class="nav-link" href="service.html" tabindex="-1">
+                                Service
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a aria-disabled="true" class="nav-link" href="contact.html" tabindex="-1">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="text">
+                            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+                                Search
+                            </button>
+                        </input>
+                    </form>
+                </div>
+            </nav>
+            <!-- Termino Navbar -->
+            <div class="conatainer">
+                <h1>
+                    Tema Bootstrap Multiproposito
+                </h1>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eveniet mollitia porro beatae dignissimos officiis aut dicta id aspernatur maxime dolorum provident quidem itaque, assumenda ad! Consequuntur consequatur possimus dicta.
+                </p>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="about.html">
+                        Read More
+                    </a>
+                    <a class="btn btn-default btn-lg" href="contact.html">
+                        Contact Us
+                    </a>
+                </p>
+            </div>
         </div>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav><!-- Termino Navbar -->  
-
-	
-		<div class="conatainer">
-			<h1>Tema Bootstrap Multiproposito</h1>
-			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eveniet mollitia porro beatae dignissimos officiis aut dicta id aspernatur maxime dolorum provident quidem itaque, assumenda ad! Consequuntur consequatur possimus dicta.</p>	
-			<p> <a href="about.html" class="btn btn-primary btn-lg">Read More</a> <a href="contact.html" class="btn btn-default btn-lg">Contact Us</a> </p>		
-		</div>		
-	</div>	
-
-
-
-<script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-</body>
+        <script crossorigin="anonymous" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" src="https://code.jquery.com/jquery-3.4.1.js">
+        </script>
+    </body>
 </html>

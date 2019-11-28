@@ -1,0 +1,40 @@
+.btn-primary{
+	background: #313461;
+	border: #313461;
+}
+
+.btn-default{
+	color: white;
+}
+
+.jumbotron{
+	background: #333 url('../img/bg.jpg') -400px -200px;
+	color: white;
+	text-align: center;
+	border-bottom: 5px #f4f4f4 solid;
+}
+
+.jumbotron-main h1{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	
+}
+
+.jumbotron p.lead{
+	font-size: 25px;
+	margin-bottom: 60px;
+}
+
+.jumbotron-sub{
+
+}
+
+.navbar a{
+	margin-bottom: 3px;
+}
+
+.navbar a:hover{
+	background-color: none !important;
+	border-bottom: white 2px solid;
+	margin-bottom: 0px;
+}
