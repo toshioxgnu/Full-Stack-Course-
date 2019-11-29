@@ -1,40 +1,63 @@
-.btn-primary{
-	background: #313461;
-	border: #313461;
+.btn-primary {
+    background: #313461;
+    border: #313461;
+}
+.btn-default {
+    color: white;
+}
+.jumbotron {
+    background: #333 url('../img/bg.jpg') -400px -200px;
+    color: white;
+    text-align: center;
+    border-bottom: 5px #f4f4f4 solid;
+}
+.jumbotron-main h1 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.jumbotron p.lead {
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.jumbotron-sub {}
+.navbar{
+    background-color: transparent !important;
+    padding-top: 0; 
+}
+.navbar a {
+    margin-bottom: 3px;
+}
+.navbar a:hover {
+    background-color: none !important;
+    border-bottom: white 2px solid;
+    margin-bottom: 0px;
+}
+.card{
+    text-align: center;
+
+}
+.card ion-icon{
+    font-size: 50px;
 }
 
-.btn-default{
-	color: white;
+.section-a{
+    background: #313461;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 30px;
 }
 
-.jumbotron{
-	background: #333 url('../img/bg.jpg') -400px -200px;
-	color: white;
-	text-align: center;
-	border-bottom: 5px #f4f4f4 solid;
+.section-a h1{
+    font-size: 50px;
 }
 
-.jumbotron-main h1{
-	margin-top: 60px;
-	margin-bottom: 30px;
-	
+.img-full{
+    width: 100%;
 }
 
-.jumbotron p.lead{
-	font-size: 25px;
-	margin-bottom: 60px;
-}
-
-.jumbotron-sub{
-
-}
-
-.navbar a{
-	margin-bottom: 3px;
-}
-
-.navbar a:hover{
-	background-color: none !important;
-	border-bottom: white 2px solid;
-	margin-bottom: 0px;
+.main-footer{
+    background-color: #f5f5f5;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
