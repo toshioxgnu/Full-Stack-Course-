@@ -19,10 +19,9 @@
     font-size: 25px;
     margin-bottom: 60px;
 }
-.jumbotron-sub {}
-.navbar{
-    background-color: transparent !important;
-    padding-top: 0; 
+.jumbotron-sub {
+
+
 }
 .navbar a {
     margin-bottom: 3px;
@@ -60,4 +59,4 @@
     background-color: #f5f5f5;
     padding-top: 5px;
     padding-bottom: 10px;
-}
+} 
